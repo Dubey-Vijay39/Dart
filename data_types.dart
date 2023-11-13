@@ -7,6 +7,7 @@ void main(){
   var name = "Vijay";
   var age = 21;
   print(age);
+  print(name);
 }
 // var keyword in Dart is used for declaring the value as everything is object in dart 
 // dart assumes the data type by checking the right end value of right side item
