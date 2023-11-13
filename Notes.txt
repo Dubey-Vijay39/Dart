@@ -1,0 +1,17 @@
+
+This is a Text file Containing all the short points from the DART website
+
+1] Use const for variables that you want to be compile-time constants. If the const variable is at the class level, mark it static const
+2] Although a final object cannot be modified, its fields can be changed. In comparison, a const object and its fields cannot be changed: they’re immutable.
+3] the multiplicative operator % has higher precedence than (and thus executes before) the equality operator ==, which has higher precedence than the logical AND operator &&
+4] For operators that take two operands, the leftmost operand determines which method is used. For example, if you have a Vector object and a Point object, then aVector + aPoint uses Vector addition (+).
+5] For functions that contain just one expression, you can use a shorthand syntax:
+
+        bool isNoble(int atomicNumber) => _nobleGases[atomicNumber] != null;
+
+    The => expr syntax is a shorthand for { return expr; }. The => notation is sometimes referred to as arrow syntax.
+6] Only an expression—not a statement—can appear between the arrow (=>) and the semicolon (;). For example, you can’t put an if statement there, but you can use a conditional expression.
+7] A function can have any number of required positional parameters. These can be followed either by named parameters or by optional positional parameters (but not both).
+8] If you instead want a named parameter to be mandatory, requiring callers to provide a value for the parameter, annotate them with required:
+9] Wrapping a set of function parameters in [] marks them as optional positional parameters. If you don’t provide a default value, their types must be nullable as their default value will be null:
+10] 
