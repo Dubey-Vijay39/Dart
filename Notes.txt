@@ -14,4 +14,10 @@ This is a Text file Containing all the short points from the DART website
 7] A function can have any number of required positional parameters. These can be followed either by named parameters or by optional positional parameters (but not both).
 8] If you instead want a named parameter to be mandatory, requiring callers to provide a value for the parameter, annotate them with required:
 9] Wrapping a set of function parameters in [] marks them as optional positional parameters. If you don’t provide a default value, their types must be nullable as their default value will be null:
-10] 
+10] Type of parameters 
+10.1 required and 10.2  optional
+In Optional we have 3 types
+10.2.1 Positional 
+10.2.2 named
+10.2.3 default
+ 
