@@ -7,7 +7,7 @@
 void main(){
 
   /*var st = student(); // student() is constructor
-  st.age = 21;
+  st.age = 21; 
   st.name = "Vijay";
   print("${st.age} and ${st.name}");
   st.study();
