@@ -3,7 +3,7 @@
 // In one class we can make as many named constructor as we wish
 // Constructors looks like a function but we dont use the return type in it
 
-
+/*
 void main(){
 
   /*var st = student(); // student() is constructor
@@ -25,14 +25,14 @@ class student{
     print("This is default constructor"); 
   */}
 
-  student(int age,String name){ // This is parameterized constructor
-    this.age = age; 
-    this.name = name;
-  } // WE can also write the same code in this way student(this.age,this.name);
+  //student(int age,String name){ // This is parameterized constructor
+  //  this.age = age; 
+  //  this.name = name;
+  //} // WE can also write the same code in this way student(this.age,this.name);
 
   void study(){ // study here is property or we can also say behaviour
     print("${this.name} is now studing");
 
   }
 
-}
+}*/
